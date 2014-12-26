@@ -1,0 +1,13 @@
+Flask
+uWSGI
+Jinja2
+Markdown
+MarkupSafe
+SQLAlchemy
+Werkzeug
+ecdsa
+itsdangerous
+mccabe
+paramiko
+pycrypto
+
