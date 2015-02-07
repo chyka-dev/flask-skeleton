@@ -28,8 +28,8 @@ def bootstrap():
 
 def install_nginx():
     sudo('yum -y install nginx')
-    if exists('/vagrant/skelton.conf') and not exists('/etc/nginx/conf.d/skelton.conf'):
-        sudo('ln -s /vagrant/skelton.conf /etc/nginx/conf.d/skelton.conf')
+    if exists('/vagrant/skeleton.conf') and not exists('/etc/nginx/conf.d/skeleton.conf'):
+        sudo('ln -s /vagrant/skeleton.conf /etc/nginx/conf.d/skeleton.conf')
 
 
 def install_python27():
